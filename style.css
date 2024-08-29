@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#addtc{
+	display: none;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	background-color: lightgrey;
+	color: black;
+	border-radius: 10px;
+	padding: 2%;
+	z-index: 1;
+
+	
+}
+.layout{
+	background-color: black;
+	border-radius: 10px;
+	border: none;
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: 1;
+
+}
+.pop{
+	position: absolute;
+	background-color: lightgrey;
+	border-radius:10px ;
+	padding:  7% 6%;
+	z-index: 5;
+	margin:2% ;
+}
+#addtitle,#addcontent{
+
+	padding: 6% 17%;
+    border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 2px dotted black;
+	outline:none;
+	border-radius: 5px;
+	margin-top: 1em;
+}
+#addcontent{
+	padding: 8% 15%;
+	font-size: 15px;
+}
+.cenpop{
+	display: flex;
+	justify-content: center;
+}
+.btn{
+	margin-top: 4%;
+	padding: 5%;
+}
+.btn1{
+	padding: 5%;
+	background-color: lightcoral;
+	border-radius: 5px;
+	border: none;
+	margin-right: 5%;
+}
+.btn2{
+	padding: 5% 8%;
+	background-color:lightskyblue ;
+	border-radius: 5px;
+	border: none;
+}
+.pack div{
+	border-radius: 5px;
+	border: none;
+	width:270px;
+	height:auto;
+	background-color: lightgrey;
+	margin: 1%;
+	padding: 1%;
+
+}
+.pack{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.pack h1{
+	color:lightcoral;
+}
+.pack p{
+   font-family: sans-serif;
+}
+.h11{
+	background-color: lavenderblush;
+	display: flex;
+	justify-content: center;
+}
+.h11 button{
+	border:none;
+	border-radius: 5px;
+	padding: 1px 10px;
+	margin: 1%;
+	background-color:bisque;
+}
